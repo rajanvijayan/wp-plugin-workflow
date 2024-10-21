@@ -1,0 +1,10 @@
+[
+    {
+      "name": "WP Plugin Release Workflow",
+      "path": ".github/workflow-templates/create-release.yml",
+      "description": "Automates the process of creating a release for a plugin. It installs NPM and Composer dependencies, then packages the plugin as a ZIP file for the release.",
+      "iconName": "octicon-package",
+      "categories": ["Deployment", "Release"],
+      "filePatterns": ["composer.json", "package.json"]
+    }
+  ]
